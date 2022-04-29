@@ -2,6 +2,7 @@ nav {
     display: flex;
     justify-content: flex-end;
     width: 100%;
+    position: absolute;
 
     ul {
         display: flex;
@@ -9,11 +10,12 @@ nav {
         .link {
             margin: 10px;
             text-decoration: none;
-            color: black;
+            color: white;
         }
 
         .link:hover {
             font-weight: bold;
+            color: black;
         }
 
         .link:active {
