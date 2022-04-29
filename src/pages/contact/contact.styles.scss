@@ -9,6 +9,52 @@
     text-align: center;
 
     .contact-box {
-        margin: 10vh 0;
+        margin: 20vh 0;
+    }
+
+    a {
+        margin: 1vh 0;
+        display: flex;
+        font-size: 3rem;
+        text-decoration: none;
+        color: white;
+
+        p{
+            margin: 0 2vw;
+        }
+    }
+}
+
+@media (max-width: 800px){
+    .contact-container {
+        position: absolute;
+        top: 0;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    
+        .contact-box {
+            display: flex;
+            flex-direction: column;
+        }
+    
+        a {
+            margin: 1vh 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 1rem;
+            text-decoration: none;
+            color: white;
+    
+            p{
+                margin: 2vh 0;
+                display: flex;
+                flex-direction: column;
+            }
+        }
     }
 }
