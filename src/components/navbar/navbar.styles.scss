@@ -1,8 +1,9 @@
 nav {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     width: 100%;
     position: absolute;
+    z-index: 1;
 
     ul {
         display: flex;
@@ -20,6 +21,35 @@ nav {
 
         .link:active {
             color: white;
+        }
+    }
+}
+
+@media (min-width:800px){
+    nav {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        position: absolute;
+        z-index: 1;
+    
+        ul {
+            display: flex;
+            
+            .link {
+                margin: 10px;
+                text-decoration: none;
+                color: white;
+            }
+    
+            .link:hover {
+                font-weight: bold;
+                color: black;
+            }
+    
+            .link:active {
+                color: white;
+            }
         }
     }
 }

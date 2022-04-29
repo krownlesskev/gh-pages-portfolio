@@ -1,3 +1,71 @@
 .home-container {
     position: absolute;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+    .hero-container {
+        margin: 10vh 0;
+    
+            
+            h1 {
+                font-weight: 100;
+                font-family: 'Roboto Condensed', sans-serif;
+                font-size: 3rem;
+                
+                span {
+                    color: white;
+                    font-family: 'Roboto Condensed', sans-serif;
+                    font-weight: 100;
+                }   
+            }
+        }
+
+    .hero-main {
+        width: 80vw;
+        line-height: 1.5;
+    }
 }
+ 
+ @media (min-width: 800px){
+        .home-container {
+            position: absolute;
+            height: 100vh;
+            width: 100%;
+            top: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            
+            .hero-container {
+                margin: 5vh;
+            
+                    
+                    h1 {
+                        font-weight: 100;
+                        font-family: 'Roboto Condensed', sans-serif;
+                        font-size: 10rem;
+                        
+                        span {
+                            color: white;
+                            font-family: 'Roboto Condensed', sans-serif;
+                            font-weight: 100;
+                        }   
+                    }
+                }
+        
+            .hero-main {
+                width: 80vw;
+                line-height: 1.5;
+            }
+        }
+}
+
+
+
+
