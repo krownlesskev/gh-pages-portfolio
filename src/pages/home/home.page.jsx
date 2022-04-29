@@ -6,12 +6,15 @@ const HomePage = () => {
             <div className='hero-container'>
                 <h1><span>KEVINSANA</span>.COM</h1>
             </div>
-
             <div className='hero-main'>
                 <p>Hi! My name is Kevin Sana, and I am a Winnipeg-based front-end developer.</p>
                 <p>I am proficient in React but I am open to learning and using different frameworks. I also enjoy
-                working with API's and even designing my own API endpoints. Although this hardly qualifies me as 
-                a full-stack developer, I am definitely working my way towards it.</p>
+                    working with API's and even designing my own API endpoints. Although this hardly qualifies me as
+                    a full-stack developer, I am definitely working my way towards it.</p>
+                <br />
+                <p>I have a wide breadth of skills that vary between the front and back end development.</p>
+                <br />
+                <p>Check out my skills page for more details!</p>
             </div>
         </div>
     );
