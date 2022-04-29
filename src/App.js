@@ -18,6 +18,7 @@ function App() {
         <Route exact path='/' element={<HomePage />} />
         <Route path='/contact' element={<ContactPage />} />
         <Route path='/skills' element={<SkillsPage />} />
+        <Route path='*' element={<HomePage />} />
       </Routes>
     </Router>
   );
