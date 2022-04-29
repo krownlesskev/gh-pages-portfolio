@@ -15,7 +15,7 @@ function App() {
       <Navbar />
       <Background />
       <Routes>
-        <Route path='/' element={<HomePage />} />
+        <Route exact path='/' element={<HomePage />} />
         <Route path='/contact' element={<ContactPage />} />
         <Route path='/skills' element={<SkillsPage />} />
       </Routes>
