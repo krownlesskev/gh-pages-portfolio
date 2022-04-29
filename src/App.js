@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/navbar/navbar.component';
 import Background from './components/background/background.component';
 import HomePage from './pages/home/home.page';
+import ContactPage from './pages/contact/contact.page';
 
 import './app.styles.scss';
 
@@ -14,6 +15,7 @@ function App() {
       <Background />
       <Routes>
         <Route path='/' element={<HomePage />} />
+        <Route path='/contact' element={<ContactPage />} />
       </Routes>
     </Router>
   );
