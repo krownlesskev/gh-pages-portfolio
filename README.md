@@ -6,4 +6,4 @@ I plan to host this portfolio on my domain www.kevinsana.com, but for now it wil
 
 ### `To view this project:`
 
-visit the gh-pages , or clone this git and run npm start.
+visit the gh-pages: https://krownlesskev.github.io/gh-pages-portfolio/ , or clone this git and run npm start.
