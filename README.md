@@ -11,7 +11,7 @@ visit the gh-pages: https://krownlesskev.github.io/gh-pages-portfolio/ , or clon
 
 ## `Projects Page is still under development`
 
-I have yet to creat the project card component and style it.
+I have yet to create the project card component and style it.
 
 
 ## `Skills Page is still under development`
