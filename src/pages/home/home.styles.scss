@@ -29,9 +29,6 @@
         width: 80vw;
         line-height: 1.5;
         color: white;
-        background-color: rgba($color: #000000, $alpha: 0.2);
-        border-radius: 10px;
-
     }
 }
  
@@ -47,7 +44,7 @@
             text-align: center;
             
             .hero-container {
-                margin: 20vh 0;
+                margin: 20vh 0 10vh 0;
                     
                     h1 {
                         font-weight: 100;
