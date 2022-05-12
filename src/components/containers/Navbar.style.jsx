@@ -31,6 +31,11 @@ export const Navbar = styled.nav`
                 transform: scale(1.1);
                 transition: .3s;
             }
+
+            a {
+                text-decoration: none;
+                color: #ffffff;
+            }
         }
     }
 

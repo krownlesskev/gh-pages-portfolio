@@ -13,7 +13,6 @@ export const ContentContainer = styled.div`
     }
     
     .main-container{
-        margin-top: 5rem;
         display: flex;
         justify-content: space-evenly;
         .main-text{
@@ -33,11 +32,20 @@ export const ContentContainer = styled.div`
         .main-container{
             margin-top: 0;
             flex-direction: column;
+
+            .main-text {
+                text-align: center;
+            }
         }
     }
 
     @media (max-width:360px) {
 
+        .main-container{
+            .main-text {
+                font-size: 18px;
+            }
+        }
     }
 
 `;

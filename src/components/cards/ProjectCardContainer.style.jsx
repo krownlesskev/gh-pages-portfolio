@@ -6,6 +6,7 @@ export const ProjectCardContainer = styled.div`
     max-width: 300px;
     transition: .3s;
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
     align-items: center;
 
@@ -22,11 +23,16 @@ export const ProjectCardContainer = styled.div`
         text-align: center;
     }
 
+    img {
+        width: 100%;
+    }
+
     .tech {
-        margin: 0.5rem ;
+        background-color: #0066ff;
+        padding: 1rem;
+        color: #ffffff;
+        width: 100%;
         text-align: center;
-        border: 1px solid black;
-        border-radius: 10px;
     }
 
     .desc {
@@ -35,10 +41,13 @@ export const ProjectCardContainer = styled.div`
     }
 
     a {
-        margin-bottom: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0.5rem;
         color: #ffffff;
-        text-align: center;
         width: 100px;
+        height: 30px;
         text-decoration: none;
         background-color: #0066ff;
         border-radius: 10px;
