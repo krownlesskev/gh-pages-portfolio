@@ -42,7 +42,7 @@
   "devDependencies": {
     "gh-pages": "^3.2.3"
   },
-  "description": "Started this project to learn react router dom and improve my sass.",
+  "description": "This was developed using React and Styled Components",
   "main": "index.js",
   "repository": {
     "type": "git",
