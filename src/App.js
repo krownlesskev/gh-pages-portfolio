@@ -46,7 +46,7 @@ function App() {
                 title='Admin Dashboard'
                 img={ss3}
                 tech='React / Sass'
-                desc='Stativ Web Page that replicates an admin dashboard'
+                desc='StatiC Web Page that replicates an admin dashboard'
                 demo='https://krownlesskev.github.io/project-admin-dashboard/'
               />
             </div>
